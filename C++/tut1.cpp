@@ -1,9 +1,17 @@
-#include<stdio.h>
-// my name is the name of the
+// program to print the value of i
 
-int main()
-{
-    printf("Talha Mahamud");
+#include <iostream>
+using namespace std;
+
+int main() {
+    for (int i = 1; i <= 5; i++) {
+        // condition to continue
+        if (i == 3) {
+            continue;
+        }
+
+        cout << i << endl;
+    }
 
     return 0;
 }
